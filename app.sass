@@ -1,0 +1,53 @@
+#confirmContainer
+  display: flex
+  align-items: stretch
+  justify-content: center
+  background-color: #333
+  box-shadow: 2px 2px 2px #cfcfcf
+  padding: .2rem
+  max-width: 13rem
+  border-radius: 3rem
+  font-family: sans-serif
+  transition: all .2s ease-in-out
+  float: right
+
+  a
+    padding: .3rem
+    text-decoration: none
+    font-size: .7em
+    letter-spacing: .03rem
+    transition: all .2s ease-in-out
+
+  #delete
+    background-color: limegreen
+    color: white
+    margin-right: .1rem
+    border-radius: 3em 0 0 3em
+    padding: .75rem
+
+    &:hover
+      color: black
+      background-color: darken(limegreen, 10)
+
+  #cancel
+    background-color: red
+    color: white
+    border-radius: 0 3em 3em 0
+    padding: .75rem
+
+    &:hover
+      color: black
+      background-color: darken(red, 10)
+
+
+ul
+  list-style: none
+  margin: 0
+  padding: 0
+
+  li
+    padding-top: 1em
+
+
+.hidden
+  display: none

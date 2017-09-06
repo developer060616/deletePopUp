@@ -1,0 +1,47 @@
+#confirmContainer {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background-color: #333;
+  box-shadow: 2px 2px 2px #cfcfcf;
+  padding: 0.2rem;
+  max-width: 13rem;
+  border-radius: 3rem;
+  font-family: sans-serif;
+  transition: all 0.2s ease-in-out;
+  float: right; }
+  #confirmContainer a {
+    padding: 0.3rem;
+    text-decoration: none;
+    font-size: 0.7em;
+    letter-spacing: 0.03rem;
+    transition: all 0.2s ease-in-out; }
+  #confirmContainer #delete {
+    background-color: limegreen;
+    color: white;
+    margin-right: 0.1rem;
+    border-radius: 3em 0 0 3em;
+    padding: 0.75rem; }
+    #confirmContainer #delete:hover {
+      color: black;
+      background-color: #28a428; }
+  #confirmContainer #cancel {
+    background-color: red;
+    color: white;
+    border-radius: 0 3em 3em 0;
+    padding: 0.75rem; }
+    #confirmContainer #cancel:hover {
+      color: black;
+      background-color: #cc0000; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  ul li {
+    padding-top: 1em; }
+
+.hidden {
+  display: none; }
+
+/*# sourceMappingURL=app.css.map */
